@@ -46,3 +46,11 @@ sed 's/et/ET/gi' lorem/at.txt
 # Replacing the file
 sed -i "" 's/et/ET/gi' lorem/at.txt
 # -i flag : inplace
+
+#### Bonus: Iterating through files
+## Count the number of words in each file
+
+for file in lorem/*
+do
+cat $file | wc -w 
+done;
