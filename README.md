@@ -6,3 +6,4 @@ Authors:
 - [Ignacio Tamarit](https://github.com/Ironhack-Data-Madrid-Febrero-2021/Classroom-Materials.git)
 - [Juan Blanco](https://www.linkedin.com/in/juanblanco10/)
 - [Adrián Quintario](https://www.linkedin.com/in/adri%C3%A1n-quintario-olmeda-6a7787133/)
+- [Pablo Lozano](https://www.linkedin.com/in/palozano/)
