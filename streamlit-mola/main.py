@@ -12,6 +12,7 @@ st.write("""
 # Mi súper app 
 Con Jake el perro y Finn el humano lo pasaremos guay 🚀
 """)
+
 #dat es el alias y carga_data es la función
 datos = dat.carga_data()
 
@@ -34,5 +35,3 @@ datagraf = dat.grafico(personaje)
 fig = px.line(datagraf, y="polarity", title=f"Evolución de la polaridad de  {personaje}")
 
 st.plotly_chart(fig)
-
-
