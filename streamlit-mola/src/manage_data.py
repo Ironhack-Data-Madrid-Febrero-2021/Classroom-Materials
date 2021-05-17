@@ -20,3 +20,8 @@ def grafico(person):
     data = carga_data()
     data = data[(data["character_name"] == f"{person}")]
     return data
+
+def bar_2():
+    data = carga_data()
+    data = data.groupby("character_name").agg({'polarity': 'mean'}).reset_index().set_index("character_name", drop=True)
+    return data
