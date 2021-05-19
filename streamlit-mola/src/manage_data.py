@@ -1,4 +1,5 @@
 import pandas as pd
+from src.config import collection
 
 
 def carga_data():
@@ -25,3 +26,9 @@ def bar_2():
     data = carga_data()
     data = data.groupby("character_name").agg({'polarity': 'mean'}).reset_index().set_index("character_name", drop=True)
     return data
+
+
+
+def lista_type():
+    lista = list(collection.distinct("type_of_food"))
+    return lista

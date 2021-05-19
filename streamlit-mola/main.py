@@ -86,3 +86,7 @@ archivo = codecs.open("data/mapa.html", "r")
 mapa = archivo.read()
 
 components.html(mapa, height =  500)
+
+st.write(dat.lista_type())
+tipo = st.selectbox("Selecciona algo de la lista",dat.lista_type())
+
